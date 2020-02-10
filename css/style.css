@@ -1,0 +1,593 @@
+/* ГОЛОВА */
+* {
+    font-family: Roboto,sans-serif;
+}
+
+header {
+    background-color: white;
+}
+
+#hmenu {
+    padding-top: 1.3%;
+    padding-bottom: 1.3%;
+}
+
+div.leftbord {
+    border-left: 1px solid #ccc;
+}
+
+
+@media screen and (max-width: 768px) {
+    a.perezvon {
+        position: absolute!important ;
+        left: 70%!important;
+        top: 7px!important;
+    }
+    div#headcontacts{
+        padding-top: 8px;
+    }
+    div#timework, div#locationof{
+        padding-top: 15px;
+    }
+    div.leftbord {
+        border-left: 0;
+    }
+    div.leftbord span#hcontact, div.leftbord span#hstime, div.leftbord span#hsadres , div.leftbord p#hpcontact, div.leftbord p#hptime, div.leftbord p#hpadres {
+    font-size: 16px;
+}
+
+}
+
+
+
+
+@media screen and (min-width: 767px) {
+    a.perezvon{
+        display: none;
+    }
+}
+
+i.fa.fa-mobile{
+    font-size:26px;
+    color: #6ab8ee;
+    position: absolute;
+}
+
+#hcontact {
+    margin-left: 15px;
+    font-size: 13px;
+}
+
+#hpcontact {
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+#hacontact {
+    color: black;
+}
+
+i.fa.fa-clock-o {
+    font-size:22px;
+    color: #6ab8ee;
+    position: absolute;
+}
+
+#hstime {
+    margin-left: 25px;
+    font-size: 13px;
+}
+
+#hptime {
+    font-size: 13px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 3px;
+}
+
+i.fa.fa-share {
+    font-size:22px;
+    color: #6ab8ee;
+    position: absolute;
+}
+
+#hsadres {
+    margin-left: 25px;
+    font-size: 13px;
+}
+
+#hpadres {
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+#haadres {
+    color: black;
+}
+
+nav.navbar.bg-dark {
+background-color: black!important;
+}
+
+ul.navbar-nav li.nav-item.active a.nav-link {
+    color:#6ab8ee;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+ul.navbar-nav li.nav-item a.nav-link {
+    color:white;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+ul.navbar-nav li.nav-item a.nav-link:hover {
+    color:#6ab8ee;
+}
+
+ul.navbar-nav li.nav-item a.nav-link:visited {
+    color:#6ab8ee;
+}
+
+ul.navbar-nav li.nav-item a.nav-link:active {
+    color:#6ab8ee;
+}
+
+.navbar-toggler{
+    border-color: lightgray!important;
+    outline: none !important;
+}
+
+
+#imagecontent {
+    position: absolute;
+    display: contents;
+}
+
+div#fons {
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ),url(../img/laptop-repair-bayside.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+
+div#fonsr {
+    padding-top: 5%;
+}
+
+h1{
+    color:white;
+    font-size: 36px!important;
+    font-weight: bold!important;
+}
+#h1sp {
+    color:#6ab8ee;
+}
+
+p#fonsop {
+    color: white;
+    font-size: 13px;
+    padding-top: 1%;
+}
+
+#carac{
+    padding-top: 2%;
+}
+
+#carip{
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+h3.h3hp {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+@media screen and (max-width: 1000px) {
+    h3.h3hp {
+        font-size: 26px;
+    }
+}
+
+h4.h4hps {
+    color:#6ab8ee;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+p.carp {
+    color:white;font-size: 13px; width: 45%;
+}
+
+@media screen and (max-width: 1000px) {
+    p.carp {
+        width: 60%;
+    }
+}
+
+#carip_2 {
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+
+
+/* КОНТЕНТ НАЧАЛО */
+div.cdopen {
+    padding-top: 4%;
+}
+
+h4.ch4open {
+    font-size: 12px;
+    font-weight: bold;
+    color:#6ab8ee;
+}
+
+h2 {
+    color: black;
+    font-size: 33px!important;
+    font-weight: bold!important;
+}
+
+span.cdsopen {
+    color:#6ab8ee;
+}
+
+div.cdfig {
+    padding-top: 1%;
+}
+
+div.cddfig {
+    background-color:#6ab8ee;
+    width: 100px;
+    height: 10px;
+}
+
+#cddin {
+    padding-top: 1%;
+    padding-bottom: 3%;
+}
+
+#pinzh {
+    font-size: 15px;
+    color: #777777;
+}
+
+span.pinzhs {
+    color: #6ab8ee;
+}
+
+
+
+/* КОНТЕНТ С ОПИСАНИЕМ РАБОТ */
+div#dremont {
+    padding-bottom: 5%;
+}
+
+div.opisanie{
+padding-top: 3%;
+}
+
+h3#dremonth3r {
+    color: black;
+    font-size: 17.9px;
+    font-weight: 700;
+}
+
+h3.dremonth3 {
+    font-size: 20px!important;
+    font-weight: 600!important;
+    color:#6ab8ee;
+}
+
+h3.dremonth3 i.dremonti {
+    color:#6ab8ee;
+    padding-right: 2%;
+}
+
+p.dremontp {
+    font-size: 14px;
+    color: #999999;
+}
+
+
+
+/* КОНТЕНТ С ОПИСАНИЕМ МЕСТОПОЛОЖЕНИЯ */
+div#dloc{
+    padding-top: 2%;
+}
+
+h2#masterskaya{
+    font-size: 26px!important;
+    font-weight: bold;
+    color:#12222d;
+}
+
+h2#masterskaya span#dlocs {
+    color: #6ab8ee;
+}
+
+p.dlocp {
+    font-size: 14px;
+    color: #777777;
+}
+
+
+
+/* ОПИСАНИЕ СТОИМОСТИ */
+div#dops{
+    padding-top: 5%;
+}
+
+div#dops2 {
+    padding-top: 1%;
+}
+
+h3.dsth3 {
+    padding-top: 2%;
+    font-size: 17.9px;
+    font-weight: bold;
+    color:#6ab8ee;
+}
+
+p.dstp{
+    color:#89949b;
+    font-size: 13px;
+    margin-bottom: 8px;
+}
+
+span.dsts{
+    font-size: 13px;
+    color:#2196f3;
+}
+
+
+
+/* ГАЛЕРЕЯ БЫЛО-СТАЛО */
+div#dbilo {
+    padding-top: 4.8%;
+    padding-bottom: 5%;
+}
+
+div#dbilocon {
+    background-color: #212529;
+    width: 45px;
+    height: 30px;
+    padding-top: 5px;
+}
+
+div.pad{
+    padding: 2px;
+}
+
+@media screen and (max-width: 767px) {
+    div.pad{
+        width: 50%;
+    }
+}
+
+img.galimg:hover{
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+}
+
+
+h4#dbiloh4{
+    padding-top: 9%;
+    font-size: 12px;
+    font-weight: bold;
+    color:#6ab8ee;
+}
+
+h2#dbiloh2 {
+    color:#12222d;
+    font-size: 33px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+span#dstalos{
+    color:#6ab8ee;
+}
+
+p#dstalop{
+    color:#89949b;
+    padding-top: 12%;
+    font-size: 13px;
+}
+
+
+
+/* ЗДЕСЬ АККОРДЕОН */
+section#dacc {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.card, .card-header {
+    border-color:#eee!important;
+}
+
+
+p.dcarp{
+    text-align: justify;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+p.dcarpp{
+    margin-bottom: 0;
+    font-size: 13px;
+    color:#212529;
+}
+
+
+
+/* ЗДЕСЬ КОНТАКТНАЯ ФОРМА */
+div#dcont {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+div#dcontad{
+    background-color:#6ab8ee;
+}
+
+#dcontaddr{
+    padding-top: 6%;
+    margin-bottom: 0;
+}
+
+h6#dcontaddrh6 {
+    font-size: 14px!important;
+    font-weight: bold;
+    color:white;
+    background-color: #31353e;
+    width: 105px;
+    height: 40px;
+    padding-top: 12px;
+}
+
+h2#dcontaddrh2 {
+    color:white;
+    font-size: 40px!important;
+    padding-top: 3%;
+    font-weight: bold;
+}
+
+#dcontaddrh2s{
+    color:#12222d;
+}
+
+p.dcontaddrp{
+    color:#ffffffcc;
+    padding-top: 3%;
+    font-weight: 500!important;
+}
+
+p.dcontaddrpd{
+    font-size: 14px;
+    color:#ffffffcc;
+    padding-top: 3%;
+    font-weight: 500!important;
+}
+
+p.dcontaddrpp {
+    font-size: 14px;
+    color:#ffffffcc;
+    font-weight: 500!important;
+    padding-top: 1%;
+}
+
+a.dcontaddrpa {
+    color:white;
+    font-weight: bold;
+}
+
+#dcontaddrppp{
+    padding-top: 3%;
+    padding-bottom: 8%;
+    margin-bottom: 0;
+}
+
+a.dconta{
+    opacity:1;
+}
+
+a.dconta:hover{
+    opacity:0.5;
+}
+
+div#dform {
+    background-color: #31353e;
+}
+
+h2#dformh2{
+    padding-top: 6%;
+    padding-bottom:5%;
+    color:white;
+    font-size: 26px!important;
+}
+
+div.form-group {
+    width: 90%;
+    padding-left: 10%;
+}
+
+div.form-group label {
+    color:white;
+    font-size: 12px;
+}
+
+span.redcolorstar{
+    color:red;
+}
+
+div.form-group input {
+    background-color: #53ADEB;
+    color: white;
+}
+
+.form-control {
+    border: 0!important;
+}
+
+div#dformbut {
+    padding-top: 6%;
+    padding-bottom: 7%;
+}
+
+div#errorMess{
+    margin-left: 33%;
+    text-align: center;
+    width: 35%;
+    color:white;
+    background-color: red;
+    border-radius: .25rem;
+}
+
+
+/* ФУТЕР */
+footer{
+    padding-top: 0.8%;
+    padding-bottom: 0.8%;
+    background-color: #242424;
+}
+
+footer #fsp {
+    font-size: 12px;
+    color: #919191;
+    letter-spacing: 0.06em;
+}
+
+footer #fsa {
+    text-decoration: underline;
+    letter-spacing: 0.1em;
+    font-size: 12px;
+    color: #919191;
+}
+
+
+
+/* КНОПКА НАВЕРХ*/
+div.scrollup {
+    position: fixed;
+    color: white;
+    background-color: #286090;
+    left: 25px;
+    bottom: 0;
+    padding: 4px 10px;
+    font-size: 12px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    cursor: pointer;
+    display: none;
+    text-align: center;
+}
+div.scrollup:hover {
+    background-color: #000;
+}
